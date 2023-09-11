@@ -11,6 +11,7 @@ console.log(printUserDetails({name: 'RK', age: 23}))
 type PerfectUser = {
     name: string,
     age: number
+    gender?:string
 }
 
 const printUserDetailsTwo = (user: PerfectUser): string => {
