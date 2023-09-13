@@ -18,4 +18,4 @@ const printUserDetailsTwo = (user: PerfectUser): string => {
     return `Hi, ${user.name}. You are ${user.age} years old!`;
 }
 
-console.log(printUserDetailsTwo({name: 'RK', age: 25}))
+console.log(printUserDetailsTwo({name: 'RK', age: 25,gender: 'male'}))
